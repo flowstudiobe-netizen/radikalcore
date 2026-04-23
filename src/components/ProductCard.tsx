@@ -78,7 +78,7 @@ export function ProductCard({
         </span>
       </header>
 
-      <div className="relative mx-4 mt-4 mb-2 overflow-hidden border border-white/10">
+      <div className="relative mx-0 mt-4 mb-2 overflow-hidden">
         <div
           className="absolute inset-0"
           aria-hidden
@@ -101,7 +101,7 @@ export function ProductCard({
         <div className="absolute top-2 right-2 font-mono text-[9px] uppercase tracking-[0.2em] text-ink/70 z-10">
           BATCH 001
         </div>
-        <div className="relative z-10 flex items-center justify-center h-72 sm:h-80">
+        <div className="relative z-10 flex items-center justify-center h-[374px] sm:h-[416px]">
           <Image
             src={image}
             alt={`${name} bottle`}
