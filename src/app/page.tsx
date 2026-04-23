@@ -80,7 +80,7 @@ export default function Home() {
             width={900}
             height={260}
             priority
-            className="invert w-[280px] sm:w-[480px] md:w-[680px] h-auto"
+            className="invert w-[80vw] sm:w-[480px] md:w-[680px] max-w-[680px] h-auto"
           />
 
           <p className="mt-4 font-mono text-xs sm:text-sm uppercase tracking-[0.5em] text-hazard">
