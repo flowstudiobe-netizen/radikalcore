@@ -25,12 +25,12 @@ const products = [
     name: "MASS REACTION",
     variant: "mass" as const,
     image: "/products/mass-reaction.png",
-    tagline: "HEAVY LOAD",
+    tagline: "LIMITED EDITION",
     description:
-      "Heavier load, slower burn. Engineered for stamina sessions where the others give up. Built to last.",
+      "Reaction mass of isoamyl nitrite and 2-methylbutyl nitrite, cut with pentanol. Massive, hyper-powerful rush with a smooth brain drain finish. The blend that hits hard and lands soft.",
     spec: [
-      { label: "Vol", value: "30 ML" },
-      { label: "Burn", value: "LONG" },
+      { label: "Formula", value: "MIXED" },
+      { label: "Rush", value: "HYPER" },
       { label: "Grade", value: "S" },
     ],
   },
