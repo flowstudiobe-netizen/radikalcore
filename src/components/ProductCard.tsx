@@ -23,8 +23,8 @@ const accent: Record<Variant, { bar: string; tag: string; label: string }> = {
   },
   mass: {
     bar: "stripes-mono",
-    tag: "bg-fg text-ink",
-    label: "STAMINA BUILD",
+    tag: "bg-red-600 text-white",
+    label: "XXX-POWER",
   },
   prime: {
     bar: "bg-gradient-to-r from-chrome-2 via-chrome-1 to-chrome-2",
