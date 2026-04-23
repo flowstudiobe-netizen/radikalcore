@@ -249,6 +249,14 @@ export default function Home() {
             © {new Date().getFullYear()} RADIKAL CORE
           </p>
         </div>
+        <div className="border-t border-white/10 py-4 px-4 text-center">
+          <p className="font-mono text-[9px] text-muted/50 tracking-[0.2em]">
+            Radikal® est une marque déposée de{" "}
+            <a href="https://pwd-factory.com" className="hover:text-muted transition-colors" target="_blank" rel="noopener noreferrer">
+              pwd-factory.com
+            </a>
+          </p>
+        </div>
       </footer>
     </main>
   );
