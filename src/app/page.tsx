@@ -68,7 +68,7 @@ export default function Home() {
         />
 
         <div className="relative z-10 flex flex-col items-center">
-          <div className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.4em] text-muted mb-8">
+          <div className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-muted mb-8 whitespace-nowrap">
             <span className="text-hazard">▲</span>
             <span>EST. 2014 — REBORN 2026</span>
             <span className="text-hazard">▲</span>
