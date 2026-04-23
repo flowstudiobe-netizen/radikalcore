@@ -9,15 +9,15 @@ import { StatusBar } from "@/components/StatusBar";
 
 const products = [
   {
-    name: "AMYL CORE",
+    name: "AMYL RAW-XT",
     variant: "core" as const,
-    image: "/products/amyl-core.png",
+    image: "/products/amyl-raw-xt.png",
     tagline: "THE ORIGINAL",
     description:
-      "The flagship formula. Maximum intensity, instant onset, zero hesitation. The bottle that built the legend.",
+      "Stabilized isoamyl nitrite from nature-derived alcohol. The Ultramyl Biopure formula — our proprietary natural amyl blend. One of the most legendary products in the line.",
     spec: [
-      { label: "Vol", value: "30 ML" },
-      { label: "Onset", value: "<5 SEC" },
+      { label: "Formula", value: "ULTRAMYL" },
+      { label: "Source", value: "NATURAL" },
       { label: "Grade", value: "A+" },
     ],
   },

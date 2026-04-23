@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { useRef } from "react";
 
 export type Variant = "core" | "mass" | "prime";
 
@@ -41,8 +44,31 @@ export function ProductCard({
 }: Props) {
   const a = accent[variant];
   const num = String(index).padStart(2, "0");
+  const cardRef = useRef<HTMLElement>(null);
+
+  function handleMouseMove(e: React.MouseEvent<HTMLElement>) {
+    const card = cardRef.current;
+    if (!card) return;
+    const rect = card.getBoundingClientRect();
+    const dx = (e.clientX - (rect.left + rect.width / 2)) / (rect.width / 2);
+    const dy = (e.clientY - (rect.top + rect.height / 2)) / (rect.height / 2);
+    card.style.transform = `perspective(900px) rotateY(${dx * 9}deg) rotateX(${-dy * 9}deg) scale3d(1.03,1.03,1.03)`;
+  }
+
+  function handleMouseLeave() {
+    const card = cardRef.current;
+    if (!card) return;
+    card.style.transform = `perspective(900px) rotateY(0deg) rotateX(0deg) scale3d(1,1,1)`;
+  }
+
   return (
-    <article className="group relative flex flex-col bg-bg-elev border border-white/10 overflow-hidden transition-all hover:border-hazard/60">
+    <article
+      ref={cardRef}
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
+      style={{ transition: "transform 0.15s ease-out", transformStyle: "preserve-3d", willChange: "transform" }}
+      className="group relative flex flex-col bg-bg-elev border border-white/10 overflow-hidden hover:border-hazard/60"
+    >
       <div className={`h-2 w-full ${a.bar}`} aria-hidden />
 
       <header className="flex items-center justify-between px-5 pt-4 font-mono text-[11px] uppercase tracking-widest text-muted">
@@ -81,7 +107,7 @@ export function ProductCard({
             alt={`${name} bottle`}
             width={400}
             height={400}
-            className="object-contain max-h-full transition-transform duration-500 group-hover:scale-105 drop-shadow-[0_20px_30px_rgba(0,0,0,0.35)]"
+            className="object-contain max-h-full drop-shadow-[0_20px_30px_rgba(0,0,0,0.35)]"
             priority={index === 1}
           />
         </div>
