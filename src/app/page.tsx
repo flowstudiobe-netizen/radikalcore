@@ -38,12 +38,12 @@ const products = [
     name: "AMYL PRIME",
     variant: "prime" as const,
     image: "/products/amyl-prime.png",
-    tagline: "REFINED HIT",
+    tagline: "LIMITED EDITION",
     description:
-      "The refined formula. Cleaner head, harder hit, smoother comedown. Premium chemistry, surgical precision.",
+      "Massive rush. The most powerful formula ever released from PWD laboratories. This isn't just another amyl — it's a revolution. Stabilized 2-methylbutyl nitrite mixture.",
     spec: [
-      { label: "Vol", value: "30 ML" },
-      { label: "Purity", value: "99.9%" },
+      { label: "Formula", value: "2-MBN" },
+      { label: "Edition", value: "LIMITED" },
       { label: "Grade", value: "S+" },
     ],
   },
