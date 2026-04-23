@@ -29,7 +29,7 @@ const accent: Record<Variant, { bar: string; tag: string; label: string }> = {
   prime: {
     bar: "bg-gradient-to-r from-chrome-2 via-chrome-1 to-chrome-2",
     tag: "bg-chrome-1 text-ink",
-    label: "REFINED HIT",
+    label: "ULTRA POWER",
   },
 };
 
