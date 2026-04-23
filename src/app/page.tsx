@@ -58,7 +58,7 @@ export default function Home() {
       {/* HERO BANNER — 500px, logo centré */}
       <section className="relative h-[500px] flex flex-col items-center justify-center overflow-hidden">
         <LiquidEther
-          colors={["#EAB308", "#F97316", "#e7ff00"]}
+          colors={["#EAB308", "#F97316", "#fcff00"]}
           autoIntensity={3}
           autoSpeed={2}
           mouseForce={50}
