@@ -23,21 +23,21 @@ const jetbrains = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://radikalcore.com"),
-  title: "RADIKAL CORE — Real Power. No Compromise.",
+  title: "RADIKAL POPPERS — RADIKAL CORE | Real Power. No Compromise.",
   description:
-    "The famous bottle is back. RADIKAL CORE delivers three uncompromising formulas — AMYL CORE, MASS REACTION and AMYL PRIME — engineered for maximum intensity.",
-  keywords: ["RADIKAL", "RADIKAL CORE", "AMYL CORE", "MASS REACTION", "AMYL PRIME"],
+    "The famous bottle is back. RADIKAL CORE poppers — three uncompromising formulas: AMYL RAW-XT, MASS REACTION and AMYL PRIME — engineered for maximum intensity.",
+  keywords: ["RADIKAL", "RADIKAL CORE", "RADIKAL POPPERS", "poppers", "amyl nitrite", "AMYL RAW-XT", "MASS REACTION", "AMYL PRIME"],
   openGraph: {
-    title: "RADIKAL CORE — The Bottle Is Back",
-    description: "Three uncompromising formulas. Real Power. No Compromise.",
+    title: "RADIKAL POPPERS — The Bottle Is Back",
+    description: "Three uncompromising poppers formulas. Real Power. No Compromise.",
     type: "website",
     url: "https://radikalcore.com",
     siteName: "RADIKAL CORE",
   },
   twitter: {
     card: "summary_large_image",
-    title: "RADIKAL CORE — The Bottle Is Back",
-    description: "Three uncompromising formulas. Real Power. No Compromise.",
+    title: "RADIKAL POPPERS — The Bottle Is Back",
+    description: "Three uncompromising poppers formulas. Real Power. No Compromise.",
   },
   robots: { index: true, follow: true },
 };
