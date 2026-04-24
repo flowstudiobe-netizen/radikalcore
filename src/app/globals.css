@@ -52,6 +52,13 @@
       #1d1d1b 8px 16px
     );
   }
+  .stripes-red {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      #dc2626 0 8px,
+      #ffffff 8px 16px
+    );
+  }
   .text-shadow-hard {
     text-shadow: 4px 4px 0 var(--color-ink);
   }

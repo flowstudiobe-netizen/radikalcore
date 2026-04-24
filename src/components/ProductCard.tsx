@@ -17,18 +17,18 @@ type Props = {
 
 const accent: Record<Variant, { bar: string; tag: string; label: string }> = {
   core: {
-    bar: "hazard-tape-fine",
+    bar: "stripes-mono",
     tag: "bg-hazard text-ink",
     label: "MAX INTENSITY",
   },
   mass: {
-    bar: "stripes-mono",
+    bar: "stripes-red",
     tag: "bg-red-600 text-white",
     label: "XXX-POWER",
   },
   prime: {
-    bar: "bg-gradient-to-r from-chrome-2 via-chrome-1 to-chrome-2",
-    tag: "bg-chrome-1 text-ink",
+    bar: "hazard-tape-fine",
+    tag: "bg-hazard text-ink",
     label: "ULTRA POWER",
   },
 };

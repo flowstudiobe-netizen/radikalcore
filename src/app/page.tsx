@@ -80,7 +80,7 @@ export default function Home() {
             width={900}
             height={260}
             priority
-            className="invert w-[80vw] sm:w-[480px] md:w-[680px] max-w-[680px] h-auto"
+            className="brightness-0 invert w-[80vw] sm:w-[480px] md:w-[680px] max-w-[680px] h-auto"
           />
 
           <p className="mt-4 font-mono text-xs sm:text-sm uppercase tracking-[0.5em] text-hazard">
@@ -236,7 +236,7 @@ export default function Home() {
               alt="RADIKAL"
               width={120}
               height={36}
-              className="invert"
+              className="brightness-0 invert"
             />
             <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted">
               CORE / 2026
