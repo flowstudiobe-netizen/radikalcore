@@ -75,7 +75,7 @@ export default function Home() {
           </div>
 
           <Image
-            src="/brand/logo-radikal.svg"
+            src="/brand/logo-radikal.png"
             alt="RADIKAL"
             width={900}
             height={260}
@@ -232,7 +232,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl w-full px-4 py-12 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-4">
             <Image
-              src="/brand/logo-radikal.svg"
+              src="/brand/logo-radikal.png"
               alt="RADIKAL"
               width={120}
               height={36}
